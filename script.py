@@ -60,6 +60,7 @@ def get_attractions_for_traveler(traveler):
   for attraction in traveler_attractions:
     interests_string = interests_string + str(attraction) +", "
   return interests_string
-    
+
+#Test
 smills_france = get_attractions_for_traveler(['Dereck Smill', 'Paris, France', ['monument']])
 print(smills_france)
